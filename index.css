@@ -7,6 +7,10 @@
     position: absolute;
 }
 
+#bookDiv1{
+    background-color: brown;
+}
+
 #note-container{
     top:0;
     right:0;
@@ -18,12 +22,10 @@
 
 .book-entry{
     background-color: blue;
-    top:0%;
-    right:0%;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:10%;
+    margin:10%;
     position: relative;
-    z-index:100;
 }
 
 /*
