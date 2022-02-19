@@ -6,10 +6,13 @@ let bookDiv = [];
 
 function bookToDiv() {
     // ein neues div machen css-klasse book-entry und in bookDiv anhängen
-    bookDiv[bookDiv.length] = document.createElement("div")
-    bookDiv[bookDiv.length-1].setAttribute("class","book-entry")
-    bookDiv[bookDiv.length-1].setAttribute("id","bookDiv"+bookDiv.length)
-    bookContainer.appendChild(bookDiv[bookDiv-length-1])
+    // bookDiv[bookDiv.length] = document.createElement("div")
+    // bookDiv[bookDiv.length-1].setAttribute("class","book-entry")
+    // bookDiv[bookDiv.length-1].setAttribute("id","bookDiv"+bookDiv.length)
+    // bookContainer.appendChild(bookDiv[bookDiv-length-1])
+    bookDiv[bookDiv.length] = document.createElement('p'); // is a node
+    bookDiv.innerHTML = 'test satu dua tiga';
+    document.body.appendChild(bookDiv);
 }
 
 bookToDiv()
